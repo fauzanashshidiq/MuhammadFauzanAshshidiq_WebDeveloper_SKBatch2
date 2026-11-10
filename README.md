@@ -6,6 +6,10 @@ Project ini merupakan halaman _recruitment landing page section_ yang responsif 
 
 ---
 
+**Link Live Demo:** [https://muhammad-fauzan-ashshidiq-web-devel.vercel.app/](https://muhammad-fauzan-ashshidiq-web-devel.vercel.app/)
+
+---
+
 ## Tech Stack
 
 - **Framework:** [React 19](https://react.dev/)
