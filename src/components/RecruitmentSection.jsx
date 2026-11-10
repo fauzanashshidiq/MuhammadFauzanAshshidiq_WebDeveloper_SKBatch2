@@ -1,5 +1,6 @@
 import { Briefcase, Globe, Layers, Sparkles } from "lucide-react";
 import { divisions, roles } from "../data/roles";
+import RoleCard from "./RoleCard";
 
 export default function RecruitmentSection() {
   const totalDivisions = divisions.filter((div) => div !== "All").length;
@@ -10,9 +11,8 @@ export default function RecruitmentSection() {
       className="min-h-screen bg-slate-50 py-14 sm:py-20 lg:py-24 text-slate-900"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header / Headline Area */}
+        {/* Header */}
         <div className="max-w-3xl mx-auto text-center">
-          {/* Badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs sm:text-sm font-medium mb-6">
             <Sparkles className="w-4 h-4 text-blue-600 shrink-0" />
             <span>Open Recruitment - Batch 2</span>
@@ -65,6 +65,15 @@ export default function RecruitmentSection() {
                 Remote (WFA)
               </span>
             </div>
+          </div>
+        </div>
+
+        {/* Role Cards Grid Area */}
+        <div id="open-roles" className="mt-12 sm:mt-16 scroll-mt-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {roles.map((role) => (
+              <RoleCard key={role.id} role={role} />
+            ))}
           </div>
         </div>
       </div>
