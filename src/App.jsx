@@ -1,13 +1,10 @@
-import { useState } from "react";
-import "./App.css";
+import RecruitmentSection from "./components/RecruitmentSection";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <h1>Open Recruitment</h1>
-    </>
+    <main>
+      <RecruitmentSection />
+    </main>
   );
 }
 

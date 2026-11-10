@@ -1,19 +1,18 @@
 export const divisions = [
   "All",
-  "AI & Data",
-  "Engineering & Product",
-  "Creative & Content",
-  "Community & Growth",
-  "People & Culture",
-  "Operations & Admin",
+  "AI & Automation",
+  "Product & Technology",
+  "Marketing",
+  "People & Learning",
+  "Operations",
 ];
 
 export const roles = [
-  // AI & Data
+  // AI & Automation
   {
     id: "ai-automation-specialist",
     title: "AI Automation Specialist",
-    division: "AI & Data",
+    division: "AI & Automation",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -24,7 +23,7 @@ export const roles = [
   {
     id: "ai-content-specialist",
     title: "AI Content Specialist",
-    division: "AI & Data",
+    division: "AI & Automation",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -35,7 +34,7 @@ export const roles = [
   {
     id: "ai-engineer",
     title: "AI Engineer",
-    division: "AI & Data",
+    division: "AI & Automation",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -46,7 +45,7 @@ export const roles = [
   {
     id: "ai-product-specialist",
     title: "AI Product Specialist",
-    division: "AI & Data",
+    division: "AI & Automation",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -57,7 +56,7 @@ export const roles = [
   {
     id: "ai-research-evaluation",
     title: "AI Research & Evaluation",
-    division: "AI & Data",
+    division: "AI & Automation",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -68,7 +67,7 @@ export const roles = [
   {
     id: "ai-workflow-specialist",
     title: "AI Workflow Specialist",
-    division: "AI & Data",
+    division: "AI & Automation",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -79,7 +78,7 @@ export const roles = [
   {
     id: "prompt-engineer",
     title: "Prompt Engineer",
-    division: "AI & Data",
+    division: "AI & Automation",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -87,10 +86,12 @@ export const roles = [
     skills: ["Prompt Design", "LLM Behavior", "System Prompting"],
     applyUrl: "#apply",
   },
+
+  // Product & Technology
   {
     id: "data-analyst",
     title: "Data Analyst",
-    division: "AI & Data",
+    division: "Product & Technology",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -98,12 +99,10 @@ export const roles = [
     skills: ["SQL", "Data Visualization", "Spreadsheet / Python"],
     applyUrl: "#apply",
   },
-
-  // Engineering & Product
   {
     id: "web-developer",
     title: "Web Developer",
-    division: "Engineering & Product",
+    division: "Product & Technology",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -114,7 +113,7 @@ export const roles = [
   {
     id: "front-end-engineer",
     title: "Front-End Engineer",
-    division: "Engineering & Product",
+    division: "Product & Technology",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -125,7 +124,7 @@ export const roles = [
   {
     id: "back-end-engineer",
     title: "Back-End Engineer",
-    division: "Engineering & Product",
+    division: "Product & Technology",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -136,7 +135,7 @@ export const roles = [
   {
     id: "ui-ux-designer",
     title: "UI/UX Designer",
-    division: "Engineering & Product",
+    division: "Product & Technology",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -147,7 +146,7 @@ export const roles = [
   {
     id: "qa-product-tester",
     title: "QA / Product Tester",
-    division: "Engineering & Product",
+    division: "Product & Technology",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -156,11 +155,11 @@ export const roles = [
     applyUrl: "#apply",
   },
 
-  // Creative & Content
+  // Marketing
   {
     id: "content-creator",
     title: "Content Creator",
-    division: "Creative & Content",
+    division: "Marketing",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -171,7 +170,7 @@ export const roles = [
   {
     id: "content-writer",
     title: "Content Writer",
-    division: "Creative & Content",
+    division: "Marketing",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -182,7 +181,7 @@ export const roles = [
   {
     id: "graphic-designer",
     title: "Graphic Designer",
-    division: "Creative & Content",
+    division: "Marketing",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -193,7 +192,7 @@ export const roles = [
   {
     id: "video-editor",
     title: "Video Editor",
-    division: "Creative & Content",
+    division: "Marketing",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -204,7 +203,7 @@ export const roles = [
   {
     id: "social-media-officer",
     title: "Social Media Officer",
-    division: "Creative & Content",
+    division: "Marketing",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -215,7 +214,7 @@ export const roles = [
   {
     id: "thread-specialist",
     title: "Thread Specialist",
-    division: "Creative & Content",
+    division: "Marketing",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -223,12 +222,10 @@ export const roles = [
     skills: ["Thread Writing", "Hook Strategy", "Audience Engagement"],
     applyUrl: "#apply",
   },
-
-  // Community & Growth
   {
     id: "community-acquisition",
     title: "Community Acquisition",
-    division: "Community & Growth",
+    division: "Marketing",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -239,7 +236,7 @@ export const roles = [
   {
     id: "partnership-specialist",
     title: "Partnership Specialist",
-    division: "Community & Growth",
+    division: "Marketing",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -247,23 +244,12 @@ export const roles = [
     skills: ["B2B / Community", "Negotiation", "Pitching"],
     applyUrl: "#apply",
   },
-  {
-    id: "event-management",
-    title: "Event Management",
-    division: "Community & Growth",
-    type: "Internship",
-    location: "Remote (WFA)",
-    description:
-      "Merencanakan dan mengeksekusi webinar, workshop, serta bootcamp karir dari tahap konsep hingga evaluasi pasca-acara.",
-    skills: ["Event Planning", "Rundown & Moderator", "Project Coordination"],
-    applyUrl: "#apply",
-  },
 
-  // People & Culture
+  // People & Learning
   {
     id: "talent-acquisition-specialist",
     title: "Talent Acquisition Specialist",
-    division: "People & Culture",
+    division: "People & Learning",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -274,7 +260,7 @@ export const roles = [
   {
     id: "people-operations",
     title: "People Operations",
-    division: "People & Culture",
+    division: "People & Learning",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -285,7 +271,7 @@ export const roles = [
   {
     id: "employee-engagement",
     title: "Employee Engagement",
-    division: "People & Culture",
+    division: "People & Learning",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -296,7 +282,7 @@ export const roles = [
   {
     id: "employer-branding-specialist",
     title: "Employer Branding Specialist",
-    division: "People & Culture",
+    division: "People & Learning",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -307,7 +293,7 @@ export const roles = [
   {
     id: "learning-and-development",
     title: "Learning & Development",
-    division: "People & Culture",
+    division: "People & Learning",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -316,11 +302,11 @@ export const roles = [
     applyUrl: "#apply",
   },
 
-  // Operations & Admin
+  // Operations
   {
     id: "administration-specialist",
     title: "Administration Specialist",
-    division: "Operations & Admin",
+    division: "Operations",
     type: "Internship",
     location: "Remote (WFA)",
     description:
@@ -331,12 +317,23 @@ export const roles = [
   {
     id: "finance-operations-support",
     title: "Finance / Operations Support",
-    division: "Operations & Admin",
+    division: "Operations",
     type: "Internship",
     location: "Remote (WFA)",
     description:
       "Membantu pencatatan arus kas, rekapitulasi anggaran program, dan kelancaran operasional harian organisasi.",
     skills: ["Financial Record", "Spreadsheet", "Operations Support"],
+    applyUrl: "#apply",
+  },
+  {
+    id: "event-management",
+    title: "Event Management",
+    division: "Operations",
+    type: "Internship",
+    location: "Remote (WFA)",
+    description:
+      "Merencanakan dan mengeksekusi webinar, workshop, serta bootcamp karir dari tahap konsep hingga evaluasi pasca-acara.",
+    skills: ["Event Planning", "Rundown & Moderator", "Project Coordination"],
     applyUrl: "#apply",
   },
 ];
