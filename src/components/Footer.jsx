@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex items-center gap-2">
           <span className="font-semibold text-slate-800">Sekolah Karir</span>
           <span>-</span>
-          <span>Open Recruitment Batch 2</span>
+          <span>Build something that actually matters</span>
         </div>
         <p>© {new Date().getFullYear()} Sekolah Karir. All rights reserved.</p>
       </div>
